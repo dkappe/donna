@@ -4,7 +4,7 @@
 
 VERSION = 4.0
 GOFLAGS = -gcflags -B
-PACKAGE = github.com/michaeldv/donna/cmd/donna
+PACKAGE = donna/cmd_d/donna
 
 build:
 	go build -x -o ./bin/donna $(GOFLAGS) $(PACKAGE)
